@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Untitled",
+    "test": "Untitled",
+    "type": "request",
+    "end": "2025-08-27T21:57:31.473Z",
+    "result": {
+      "status": "Submitted",
+      "message": "Request 'Untitled' SUBMITTED"
+    },
+    "request": {
+      "name": "Untitled",
+      "type": "request",
+      "url": "http://127.0.0.1:5000/users",
+      "method": "GET",
+      "headers": {},
+      "submitted": "2025-08-27T21:57:31.419Z"
+    },
+    "response": {
+      "runId": "66e3f6f1e3840",
+      "status": {
+        "code": 200,
+        "message": "OK"
+      },
+      "headers": {
+        "connection": "close",
+        "content-length": "74",
+        "content-type": "application/json",
+        "date": "Wed, 27 Aug 2025 21:57:31 GMT",
+        "server": "Werkzeug/3.1.3 Python/3.11.4"
+      },
+      "body": "[\n  {\n    \"email\": \"teste@mail\",\n    \"id\": 1,\n    \"nome\": \"Ronaldo\"\n  }\n]\n",
+      "time": 22
+    }
+  }
+]
